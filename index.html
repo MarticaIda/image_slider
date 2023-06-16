@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Slider</title>
+  </head>
+  <body>
+    <div id="app">
+      <section aria-label="photo_frame">
+        <div class="carousel">
+          <button class="carousel-button prev">&#8592;</button>
+          <button class="carousel-button next">&#8594;</button>
+          <ul>
+            <li class="slide" data-active>
+              <img
+                src="https://source.unsplash.com/1600x900/?nature,water"
+                alt="Nature image #1"
+              />
+            </li>
+            <li class="slide">
+              <img
+                src="https://source.unsplash.com/1600x900/?nature,sand"
+                alt="Nature image #2"
+              />
+            </li>
+            <li class="slide">
+              <img
+                src="https://source.unsplash.com/1600x900/?nature,forest"
+                alt="Nature image #3"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
